@@ -403,9 +403,7 @@ void menuAdmin(int indexUser) {
     } while (pilihan != 0);
 }
 
-// =====================================================
 // MENU TRANSAKSI (KASIR)
-// =====================================================
 
 void menuTransaksi(int indexUser) {
     string tanggal;
@@ -528,9 +526,7 @@ void menuTransaksi(int indexUser) {
     } while (pilihan != 0);
 }
 
-// =====================================================
 // MENU KASIR
-// =====================================================
 
 void menuKasir(int indexUser) {
     int pilihan;
@@ -921,9 +917,7 @@ void menuAdminLengkap(int indexUser) {
     } while (pilihan != 0);
 }
 
-// =====================================================
 // TAMPIL INFO SISTEM
-// =====================================================
 
 void tampilInfoSistem() {
     cout << "============================================================" << endl;
@@ -939,9 +933,7 @@ void tampilInfoSistem() {
     cout << "============================================================" << endl;
 }
 
-// =====================================================
-// PENCARIAN TRANSAKSI BY KASIR
-// =====================================================
+// PENCARIAN TRANSAKSI dari KASIR
 
 void cariTransaksiByKasir(string kasir) {
     bool ada = false;
@@ -1039,9 +1031,7 @@ void menuCariTransaksi() {
     }
 }
 
-// =====================================================
 // VALIDASI & CEK DATA
-// =====================================================
 
 void cekValidasiSemuaData() {
     int produkTidakValid = 0;
@@ -1099,9 +1089,7 @@ void cekValidasiSemuaData() {
     cout << "============================================================" << endl;
 }
 
-// =====================================================
-// RESET DATA (ADMIN ONLY)
-// =====================================================
+// RESET DATA (ADMIN)
 
 void resetSemuaTransaksi() {
     if (!konfirmasi("PERINGATAN! Yakin ingin menghapus semua riwayat transaksi?")) {
@@ -1118,9 +1106,7 @@ void resetSemuaTransaksi() {
     cout << "[OK] Semua riwayat transaksi berhasil dihapus!" << endl;
 }
 
-// =====================================================
 // TAMPIL PRODUK STOK HABIS
-// =====================================================
 
 void tampilProdukStokHabis() {
     bool ada = false;
@@ -1146,9 +1132,7 @@ void tampilProdukStokHabis() {
     cout << "============================================================" << endl;
 }
 
-// =====================================================
 // MENU STOK (ADMIN)
-// =====================================================
 
 void menuKelolaStok() {
     int pilihan;
@@ -1180,9 +1164,7 @@ void menuKelolaStok() {
     } while (pilihan != 0);
 }
 
-// =====================================================
 // MENU SISTEM (ADMIN)
-// =====================================================
 
 void menuSistem() {
     int pilihan;
@@ -1215,9 +1197,7 @@ void menuSistem() {
     } while (pilihan != 0);
 }
 
-// =====================================================
 // MENU KASIR
-// =====================================================
 
 void menuKasirLengkap(int indexUser) {
     int pilihan;
