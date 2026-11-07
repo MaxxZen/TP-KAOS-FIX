@@ -13,7 +13,7 @@ const int MAX_BULAN     = 12;
 const int MAX_UKURAN    = 5;
 
 // =====================================================
-// CLASS USER
+// CLASS USER Iwak Tempik
 // =====================================================
 
 class User {
